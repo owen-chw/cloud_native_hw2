@@ -8,7 +8,7 @@ class calculator:
     
     def run(self):
         while True:
-            a = int(input("This is a binary calculator, please input the first number: "))
+            a = int(input("Hi, this is a binary calculator, please input the first number: "))
             b = int(input("Then, input the second number: "))
             ret = self.addition(a, b)
             print("addition: "+str(ret))
