@@ -6,3 +6,7 @@ from app import calculator
 def test_add():
     calc = calculator()
     assert calc.addition(3,4) == 7
+
+def test_multiplication():
+    calc = calculator()
+    assert calc.multiplication(3,4) == 12
